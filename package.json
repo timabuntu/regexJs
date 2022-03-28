@@ -1,0 +1,13 @@
+{
+  "name": "regex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "thiago lopes de mello <timabuntu@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
