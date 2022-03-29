@@ -1,4 +1,4 @@
-const texto = `
+export const text = `
 João trouxe    flores para sua amada namorada em 10 de janeiro de 1970,
 Maria era o nome dela.
 
@@ -72,15 +72,3 @@ ONLINE  192.168.0.4 ABCDEF active
 OFFLINE  192.168.0.5 ABCDEF active
 OFFLINE  192.168.0.6 ABCDEF inactive
 `;
-
-module.exports = {
-  texto,
-  arquivos,
-  html,
-  html2,
-  alfabeto,
-  cpfs,
-  ips,
-  cpfs2,
-  lookahead,
-};

@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "thiago lopes de mello <timabuntu@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "nodemon ."
   },
