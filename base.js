@@ -1,4 +1,4 @@
-export const texto = `
+export const text = `
 João trouxe    flores para sua amada namorada em 10 de janeiro de 1970,
 Maria era o nome dela.
 

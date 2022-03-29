@@ -1,9 +1,17 @@
-// g - global (encontra todas as ocorrências)
+//? g - global (find all occurrences)
+//? i - insensitive ( find all occurrences case insensitive  )
 
-import { texto } from "./base.js";
+//* function -test- checks if that occurrence exists and returns a boolean
+//* function -exec- extract an occurrence
 
-const regExpFindAllOccurrence = /João/;
+import { text } from "./base.js";
 
-const regExpFindThisOccurrence = /joãoa/g;
+const regExpFindThisExactOccurrence = /João/;
 
-console.log(regExpFindOccurrence.test(texto));
+const regExpFindThisOccurrence = /joão/g;
+
+const regExpFindAllOccurrenceCaseInsensitive = /JoãO/i;
+
+console.log("João", regExpFindThisExactOccurrence.test(text));
+console.log("joão", regExpFindThisOccurrence.test(text));
+console.log("JoãO", regExpFindAllOccurrenceCaseInsensitive.test(text));
