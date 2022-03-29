@@ -1,8 +1,9 @@
 // g - global (encontra todas as ocorrências)
-// i - insensitive
-// (()()) grupos
-// | ou
 
-const { texto } = require("./base");
+import { texto } from "./base.js";
 
-console.log(texto);
+const regExpFindAllOccurrence = /João/;
+
+const regExpFindThisOccurrence = /joãoa/g;
+
+console.log(regExpFindOccurrence.test(texto));
